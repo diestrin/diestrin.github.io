@@ -15,7 +15,7 @@ function MyFormCtrl ($scope, $location) {
 }
 {% endhighlight %}
 
-What Angular is going to do here is to read the name of the parameters you are requesting for, and if those names are already registered as services, it will call your function when it's invoked with those parameters. So this basically says, that you can request services to Angular in any order, just writting the right name. Cool right?
+What Angular is going to do here is to read the name of the parameters you are requesting for, and if those names are already registered as services, it will call your function when it's invoked with those parameters. So this basically says, that you can request services to Angular in any order, just writing the right name. Cool right?
 
 Ok, the magic behind this is provided by javascript, since in javascript you can convert everything into a string, they simply do a `MyFormCtrl.toString()` and that's going to return `function MyFormCtrl($scope, $location) { ... }` and with a simple regex, they'll read the parameters.
 
@@ -35,7 +35,7 @@ function MyFormCtrl (scope, location) {
 MyFormCtrl.$inject = ['$scope', '$location'];
 {% endhighlight %}
 
-Note, that I'm changing the name of the parameters to scope and locations, insted of $scope and $location, because right now, it doesn't matters what is the name of the parameters, those are already annotated in the $inject property.
+Note, that I'm changing the name of the parameters to scope and locations, instead of $scope and $location, because right now, it doesn't matter what is the name of the parameters, those are already annotated in the $inject property.
 
 ### [&para;](#array_syntax)Array Syntax
 
