@@ -14,11 +14,12 @@ layout: default
 
 <a 
     href="https://twitter.com/share" 
-    class="twitter-share-button"
+    class="twitter-share-button" 
+    data-url="{{ site.url }}{{ page.url }}"
     data-via="diestrin"
     data-count="vertical"
     data-counturl="{{ site.url }}{{ page.url }}"
-    data-text="{{ page.title }} - {{ site.url }}{{ page.url }}"
+    data-text="{{ page.title }}"
     data-lang="en">Tweet</a>
 
 <div id="disqus_thread"></div>
