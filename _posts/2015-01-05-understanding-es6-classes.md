@@ -8,7 +8,7 @@ Today in a talk with a friend about what exactly ES6 classes are, I found that t
 
 First of all, if javascript is your first language and you have no prior experience with more truly object oriented languages with classes, instances, inheritance and all those things, there's a bunch of great sites you can google to find that; but hey! don't do that just for now, you're better if you don't know about that just yet.
 
-If you are like me, and have experience working with languages with commonly use classes and modules for code organization, then ES6 classes might not be what you think they are. Why? Because under the hood, Harmony classes are just a skin in code of EcmaScript prototype functionality. So all those hacks you probably did when you tried to work with classes in javascript are essentially what you are doing when using the new *class* keyword in EC6.
+If you are like me, and have experience working with languages that commonly use classes and modules for code organization, then ES6 classes might not be what you think they are. Why? Because under the hood, Harmony classes are just a skin in code of EcmaScript prototype functionality. So all those hacks you probably did when you tried to work with classes in javascript are essentially what you are doing when using the new *class* keyword in EC6.
 
 ## Is this bad?
 
