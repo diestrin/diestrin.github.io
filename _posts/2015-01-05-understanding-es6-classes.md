@@ -2,6 +2,7 @@
 layout: post
 categories: javascript es6
 tags: javascript harmony es6
+title: Understanding ES6 classes
 ---
 Today in a talk with a friend about what exactly ES6 classes are, I found that this can be commonly misunderstood.
 
