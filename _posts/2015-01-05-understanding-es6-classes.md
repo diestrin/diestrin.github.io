@@ -25,7 +25,7 @@ So let's suppose we have the function Perro, and we want to define it some metho
 - Define the things for the instance ([instance properties](#instance-properties))
 - Define the things as a template for further instances ([prototype properties](#prototype-properties))
 
-### [&para;](#static_properties)Static Properties
+### Static Properties
 
 A static property/method will only be available for the creator function, and will not be included in the instance. This can work as a helper method for the function you're creating, or properties that are not related with the instance at all.
 
@@ -36,7 +36,7 @@ Perro.definition = "The dog is the man's best friend";
 
 In this case, the definition will only be accessible by calling `Perro.definition`. No matter if you instantiate this function, it will not be transmitted to the instance. So this is a good place to put methods and properties related to the factory function, but not the children.
 
-### [&para;](#instance_properties)Instance Properties
+### Instance Properties
 
 An instance property/method is the one that will be copied to all the instances of this function. They will be independent from the definition and other instances, this is your private are and here you do what you want for your unique instance.
 
@@ -53,7 +53,7 @@ max.name = "Max";
 
 Now max has its unique properties like color and name, and even when you create new instances of this function, max will still be brown. Easy right?
 
-### [&para;](#prototype_properties)Prototype Properties
+### Prototype Properties
 
 This is what makes javascript fun and different, Prototype (well, one of the things actually). So this is our solution to the lack of classes, this is how we get inheritance to work.
 
